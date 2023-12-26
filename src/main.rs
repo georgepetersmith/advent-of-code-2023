@@ -1,3 +1,6 @@
+use aoc::*;
+
 fn main() {
-    aoc::day01::run();
+    day01::run();
+    day02::run();
 }

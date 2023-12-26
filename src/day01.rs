@@ -6,8 +6,8 @@ pub fn run() {
     let part_one_result = part_one(input.as_str());
     let part_two_result = part_two(input.as_str());
 
-    println!("Part one: {}", part_one_result);
-    println!("Part two: {}", part_two_result);
+    println!("Day 1 - part 1: {}", part_one_result);
+    println!("Day 1 - part 2: {}", part_two_result);
 }
 
 fn part_one(input: &str) -> i32 {
