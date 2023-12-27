@@ -1,5 +1,8 @@
-test:
-  cargo test
+test DAY:
+  cargo test day0{{DAY}}
 
-run:
+run DAY:
+  cargo run -- {{DAY}}
+
+run-all:
   cargo run
