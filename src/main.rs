@@ -8,15 +8,18 @@ fn main() {
         .parse::<i32>()
         .expect("Day must be a number");
 
+
     match day {
         0 => run_all_days(),
         1 => day01::run(),
         2 => day02::run(),
-        _ => panic!("Specified day is not available.")
+        3 => day03::run(),
+        _ => panic!("Specified day is not available."),
     };
 }
 
 fn run_all_days() {
     day01::run();
     day02::run();
+    day03::run();
 }
